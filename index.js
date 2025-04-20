@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 app.use("/book", bookRoutes);
 mongoose
   .connect(
-    "mongodb+srv://zafiqulalam:admin_book_store@cluster0.ujt3miy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "",
     {}
   )
   .then(() => {
